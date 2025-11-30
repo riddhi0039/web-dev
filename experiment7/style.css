@@ -1,0 +1,37 @@
+body{
+    font-family: Arial,sans-serif;
+    margin:20px;
+}
+.block-menu a{
+    display:block;
+    background-color:#3498db;
+    color: white;
+    padding: 10px;
+    margin:5px;
+
+}
+.inline-menu a{
+    display:inline;
+    background-color:#1cd48b;
+    color:white;;
+    padding: 2px 5px;
+    margin: 5px;
+}
+.inline-block-menu a{
+    display:inline-block;
+    background-color:#9b59b6;
+    color:white ;
+    padding: 5px 10px;
+    margin:5px;
+}
+.float-menu a{
+    float:left;
+    background-color: #e67E22;
+    color:white;
+    padding:10px 15px;
+    margin:5px;
+}
+.clear-example a{
+    clear:both;
+    
+}
