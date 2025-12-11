@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.container { display: flex; }
+.left { flex: 1; background: lightblue; padding: 20px; }
+.right { flex: 1; background: lightgreen; padding: 20px; }
+
+@media (max-width: 600px) {
+  .container { flex-direction: column; }
+  .left { background: lightcoral; }
+  .right { background: lightyellow; }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="left">Left</div>
+  <div class="right">Right</div>
+</div>
+
+</body>
+</html>
