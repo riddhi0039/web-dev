@@ -2,7 +2,7 @@ body{
     background-color: rgb(152, 152, 152);
     
 }
-#text{
+.text{
     font-family:Georgia, 'Times New Roman', Times, serif ;
     text-align: center;
     font-size: 40px;
