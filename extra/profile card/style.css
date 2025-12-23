@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b47ae6;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+.heading{
+    color:#6a41b7;
+    gap:20px;
+    padding: 5px;
+    border-radius: 50px;
+    max-width: 500px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: #cac6d1;
+    border: 5px solid #7a31b2; 
+    margin: 0 auto;
+}
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    gap: 30px;
+    background-color: #6a41b7;
+    padding: 25px;
+    border-radius: 20px;
+    max-width: 900px;
+    width: 100%;
+    align-items: center;
+    border: 5px solid #cab0db;
+}
+
+/* TEXT AREA */
+.info-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex: 1;
+}
+
+.info {
+    background-color: #8e63d9;
+    padding: 12px 16px;
+    border-radius: 12px;       /* rounded small boxes */
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+}
+.info:hover{
+    color: #6330c2;
+    transform: scale(1.025);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+}
+
+/* IMAGE */
+.profile-img {
+    width: 220px;
+    height: auto;
+    border-radius: 20px;       /* rounded image */
+}
+.profile-img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+
+}
+
+/* 📱 RESPONSIVE */
+@media (max-width: 700px) {
+    .card {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .info {
+        text-align: center;
+    }
+}
