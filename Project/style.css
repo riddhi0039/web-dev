@@ -231,11 +231,11 @@ footer {
         align-items: center;
         gap: 5px;
         overflow: hidden;
+        justify-content: center;
     }
     
     .logo {
-        font-size: 12px;
-        white-space: nowrap;
+        display: none;
     }
     
     .nav-links {
