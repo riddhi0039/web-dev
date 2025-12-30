@@ -211,7 +211,7 @@ select {
     
     .started {
         width: 100%;
-        max-width: 500px;
+        max-width: 300px;
         padding: 12px 24px;
         font-size: 18px;
         font-weight: 600;
