@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:
+      linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+      url("netbg.jpeg");
+    background-size: 1920px 1080px;
+    background-position: center top; 
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.intro {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 150px;
+}
+
+#text h1 {
+    margin: 0;
+    font-size: clamp(28px, 5vw, 56px);
+    font-weight: bold;
+    color: #e50914;
+}
+
+.right {
+    display: flex;
+    gap: 15px;
+}
+
+select {
+    padding: 8px 14px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    height: 35px;
+}
+
+.signin {
+    background: #e50914;
+    color: white;
+    padding: 8px 18px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    height: 35px;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 600px;  
+}
+.para h1{
+    font-size: clamp(40px, 7vw, 50px);
+    margin-bottom: 20px;
+    font-weight: 1000;
+}
+
+.para p  {
+    font-size: clamp(10px, 2vw, 15px);
+    gap: 40px;
+    margin-bottom: 10px;
+}
+.btn{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+}
+.btn form{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.btn input {
+    width: 300px;
+    max-width: 100%;
+    padding: 16px 18px;
+    font-size: 18px;
+    line-height: 1;
+    background-color: rgba(28, 27, 27, 0.75);
+}
+.started {
+    background-color: #e50914;
+    color: white;
+    padding: 8px 28px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 200px;
+    max-width: 100%;
+}
+.started:hover {
+    background-color: #9d0910;
+}
+
+@media (max-width: 1000px) {
+    .intro {
+        padding: 16px 24px;
+    }
+    #text h1 {
+        font-size: 28px;
+    }
+    .right {
+        gap: 8px;
+    }
+    .main .para #topic{
+        font-size: 30px;
+    }
+}
+@media (max-width: 600px) {
+    body {
+        background-size: cover;
+    }
+    .intro {
+        padding: 16px 20px;
+    }
+    .para h1 {
+        font-size: 32px;
+    }
+    .para p {
+        font-size: 14px;
+    }
+    .btn {
+        width: 100%;
+    }
+    .btn form {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .btn input {
+        width: 100%;
+        font-size: 16px;
+        padding: 14px 16px;
+    }
+    .started {
+        width: 100%;
+        font-size: 16px;
+        padding: 14px 16px;
+    }
+}
