@@ -148,14 +148,15 @@ select {
     }
     .btn {
         width: 100%;
+        flex-direction: column;
     }
     .btn form {
-        flex-direction: column;
-        width: 100%;
+        
+        width: 300px;
         align-items: center;
     }
     .btn input {
-        width: 100%;
+        width: 300px;
         font-size: 16px;
         padding: 14px 16px;
     }
