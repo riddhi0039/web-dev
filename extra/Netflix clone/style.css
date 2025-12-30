@@ -136,13 +136,15 @@ select {
         background-size: cover;
     }
     .intro {
-        padding: 16px 20px;
+        font-size: 30px;
+        padding: 8px 20px;
     }
     .para h1 {
         font-size: 32px;
     }
     .para p {
         font-size: 14px;
+        width: 50px;
     }
     .btn {
         width: 100%;
