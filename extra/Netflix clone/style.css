@@ -12,8 +12,8 @@ body {
     align-items: center;
     background:
       linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-      url("netbg.jpeg");
-    background-size: 1920px 1080px;
+      url("netflibg.jpg");
+    background-size: cover;
     background-position: center top; 
     background-repeat: no-repeat;
     font-family: 'Montserrat', sans-serif;
@@ -27,7 +27,6 @@ body {
     align-items: center;
     padding: 30px 150px;
 }
-
 #text h1 {
     margin: 0;
     font-size: clamp(28px, 5vw, 56px);
@@ -116,7 +115,86 @@ select {
 .started:hover {
     background-color: #9d0910;
 }
+.trending{
+    width: 100%;
+    padding: 0 150px 60px;
+    margin-top: 400px;
+    background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.8));
+}
+h2 {
+    width: 100%;
+    
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+.shows{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 100%;
+    max-width: 1400px;
+    width: 350px;
+    justify-content: space-between;
+    gap:20px;
+}
+.shows img {
+    min-width: 170px;
+    width: 170px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    background-color: #333;
+    border: 2px solid #444;
+    transition: transform 0.3s ease;
+}
+.shows img:hover {
+    transform: scale(1.05);
+    border-color: #e50914;
+}
+.text2{
+    margin-left: 30px;
+}
+.reasons {
+    width: 100%;
+    padding: 60px 150px;
+}
 
+.reasons h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+.reason{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 25px;
+}
+.cards{
+    background: linear-gradient(rgb(24, 24, 72), rgb(26, 11, 43));
+    border-radius: 10px;
+    height: 270px;
+    width: 290px;
+}
+.cards h2{
+    margin-top: 20px;
+    font-size:23px;
+    padding: 10px;
+    align-items: left;
+}
+.cards p{
+    padding:10px;
+    align-items: left;
+}
+@media (max-width: 1200px) {
+    .intro {
+        padding: 20px 40px;
+    }
+    
+    .trending {
+        padding: 0 40px 60px;
+    }
+}
 @media (max-width: 1000px) {
     .intro {
         padding: 16px 24px;
