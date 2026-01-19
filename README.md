@@ -13,11 +13,11 @@ First-semester undergraduate student with a basic understanding of HTML and CSS.
 ## Projects
 - Profile Website  
   A simple personal webpage created using HTML and CSS.  
-  (Link to be added)
+  https://riddhi0039.github.io/web-dev/Project/
 
 - Netflix Clone  
   A basic frontend clone focusing on layout and styling using HTML and CSS.  
-  (Link to be added)
+  https://riddhi0039.github.io/Netflix-Clone/
 
 ## Current Focus
 - Strengthening HTML and CSS fundamentals
